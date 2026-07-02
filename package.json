@@ -1,0 +1,30 @@
+{
+  "name": "database-backup-automation-playwright",
+  "version": "1.0.0",
+  "description": "Automated database backup using Playwright, Node.js and Nodemailer.",
+  "main": "backup.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backup.js"
+  },
+  "keywords": [
+    "database",
+    "backup",
+    "automation",
+    "playwright",
+    "nodejs",
+    "scheduler",
+    "sql"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "nodemailer": "^9.0.3",
+    "playwright": "^1.61.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.6.0",
+    "prettier": "^3.9.4"
+  }
+} 
